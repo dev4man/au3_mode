@@ -140,7 +140,7 @@
   (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
   (set (make-local-variable 'indent-line-function) 'au3-indent-line)  
   (set (make-local-variable 'font-lock-keywords-case-fold-search) t)
-  (set (make-local-variable 'default-tab-width) 2)
+  (set (make-local-variable 'default-tab-width) 4)
   (set (make-local-variable 'case-fold-search) t)
   (setq major-mode 'au3-mode)
   (setq mode-name "au3")
@@ -150,7 +150,7 @@
 ;   "Major mode for editing AutoIt version 3 Language files."
 ;   (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
 ;   (set (make-local-variable 'indent-line-function) 'au3-indent-line)
-;   (setq default-tab-width 2)
+;   (setq default-tab-width 4)
 ;   )
 
 (provide 'au3-mode)
