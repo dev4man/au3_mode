@@ -20,7 +20,7 @@
   "Highlighting expressions for au3 builtins")
 
 
-;; 추가
+;; 소문자 추가
 (defvar au3-font-lock-keywords-builtins2
   (list   
    '("\\<\\(a\\(?:cos\\|sin\\|tan\\|bs\\|dlib\\(?:\\(?:dis\\|en\\)able\\)\\|s\\(?:c\\|sign\\)\\|utoit\\(?:setoption\\|win\\(?:[gs]ettitle\\)\\)\\)\\|b\\(?:eep\\|i\\(?:narystring\\|t\\(?:and\\|not\\|or\\|rotate\\|shift\\|xor\\)\\)\\|lockinput\\|reak\\)\\|c\\(?:dtray\\|all\\|eiling\\|hr\\|lip\\(?:\\(?:ge\\|pu\\)t\\)\\|o\\(?:n\\(?:sole\\(?:read\\|write\\(?:error\\)?\\)\\|trol\\(?:c\\(?:lick\\|ommand\\)\\|disable\\|enable\\|focus\\|get\\(?:focus\\|handle\\|pos\\|text\\)\\|hide\\|listview\\|move\\|s\\(?:e\\(?:nd\\|ttext\\)\\|how\\)\\)\\)\\|s\\)\\)\\|d\\(?:ec\\|ir\\(?:c\\(?:opy\\|reate\\)\\|\\(?:getsiz\\|\\(?:m\\|rem\\)ov\\)e\\)\\|ll\\(?:c\\(?:all\\|lose\\)\\|open\\|struct\\(?:create\\|get\\(?:data\\|ptr\\|size\\)\\|setdata\\)\\)\\|rive\\(?:get\\(?:drive\\|filesystem\\|label\\|serial\\|type\\)\\|map\\(?:add\\|del\\|get\\)\\|s\\(?:etlabel\\|pace\\(?:free\\|total\\)\\|tatus\\)\\)\\)\\|e\\(?:nv\\(?:get\\|set\\|update\\)\\|val\\|x\\(?:ecute\\|p\\)\\)\\|f\\(?:ile\\(?:c\\(?:hangedir\\|lose\\|opy\\|reate\\(?:ntfslink\\|shortcut\\)\\)\\|delete\\|exists\\|find\\(?:\\(?:firs\\|nex\\)tfile\\)\\|get\\(?:attrib\\|longname\\|s\\(?:hort\\(?:name\\|cut\\)\\|ize\\)\\|time\\|version\\)\\|install\\|move\\|open\\(?:dialog\\)?\\|re\\(?:ad\\(?:line\\)?\\|cycle\\(?:empty\\)?\\)\\|s\\(?:avedialog\\|e\\(?:lectfolder\\|t\\(?:attrib\\|time\\)\\)\\)\\|write\\(?:line\\)?\\)\\|loor\\|tpsetproxy\\)\\|gui\\(?:c\\(?:reate\\|trl\\(?:create\\(?:avi\\|button\\|c\\(?:heckbox\\|o\\(?:mbo\\|ntextmenu\\)\\)\\|d\\(?:ate\\|ummy\\)\\|edit\\|gr\\(?:aphic\\|oup\\)\\|i\\(?:con\\|nput\\)\\|l\\(?:abel\\|ist\\(?:view\\(?:item\\)?\\)?\\)\\|m\\(?:enu\\(?:item\\)?\\|onthcal\\)\\|obj\\|p\\(?:ic\\|rogress\\)\\|radio\\|slider\\|t\\(?:ab\\(?:item\\)?\\|reeview\\(?:item\\)?\\)\\|updown\\)\\|delete\\|get\\(?:\\(?:handl\\|stat\\)e\\)\\|re\\(?:ad\\|cvmsg\\|gisterlistviewsort\\)\\|se\\(?:nd\\(?:msg\\|todummy\\)\\|t\\(?:bkcolor\\|c\\(?:\\(?:ol\\|urs\\)or\\)\\|data\\|font\\|graphic\\|image\\|limit\\|onevent\\|pos\\|resizing\\|st\\(?:\\(?:at\\|yl\\)e\\)\\|tip\\)\\)\\)\\)\\|delete\\|get\\(?:cursorinfo\\|msg\\)\\|registermsg\\|s\\(?:et\\(?:bkcolor\\|c\\(?:oord\\|ursor\\)\\|font\\|help\\|icon\\|onevent\\|state\\)\\|tartgroup\\|witch\\)\\)\\|h\\(?:wnd\\|ex\\|otkeyset\\|ttpsetproxy\\)\\|i\\(?:n\\(?:etget\\(?:size\\)?\\|i\\(?:delete\\|re\\(?:ad\\(?:section\\(?:names\\)?\\)?\\|namesection\\)\\|write\\(?:section\\)?\\)\\|putbox\\|t\\)\\|s\\(?:a\\(?:dmin\\|rray\\)\\|b\\(?:inarystring\\|ool\\)\\|d\\(?:eclared\\|llstruct\\)\\|float\\|hwnd\\|int\\|keyword\\|number\\|obj\\|string\\)\\)\\|log\\|m\\(?:emgetstats\\|o\\(?:d\\|use\\(?:click\\(?:drag\\)?\\|down\\|get\\(?:cursor\\|pos\\)\\|move\\|up\\|wheel\\)\\)\\|sgbox\\)\\|number\\|obj\\(?:create\\|event\\|get\\|name\\)\\|p\\(?:i\\(?:ng\\|xel\\(?:checksum\\|getcolor\\|search\\)\\)\\|ro\\(?:cess\\(?:close\\|exists\\|list\\|setpriority\\|wait\\(?:close\\)?\\)\\|gress\\(?:o\\(?:ff\\|n\\)\\|set\\)\\)\\)\\|r\\(?:andom\\|eg\\(?:delete\\|enum\\(?:key\\|val\\)\\|read\\|write\\)\\|ound\\|un\\(?:\\(?:asse\\|wai\\)t\\)?\\)\\|s\\(?:random\\|e\\(?:nd\\|te\\(?:rror\\|xtended\\)\\)\\|h\\(?:ellexecute\\(?:wait\\)?\\|utdown\\)\\|in\\|leep\\|ound\\(?:play\\|setwavevolume\\)\\|plash\\(?:imageon\\|off\\|texton\\)\\|qrt\\|t\\(?:atusbargettext\\|d\\(?:errread\\|inwrite\\|outread\\)\\|ring\\(?:addcr\\|format\\|i\\(?:nstr\\|s\\(?:a\\(?:scii\\|l\\(?:num\\|pha\\)\\)\\|digit\\|float\\|int\\|lower\\|space\\|upper\\|xdigit\\)\\)\\|l\\(?:e\\(?:ft\\|n\\)\\|ower\\)\\|mid\\|r\\(?:e\\(?:gexp\\(?:replace\\)?\\|place\\)\\|ight\\)\\|s\\(?:plit\\|trip\\(?:cr\\|ws\\)\\)\\|trim\\(?:\\(?:lef\\|righ\\)t\\)\\|upper\\)?\\)\\)\\|t\\(?:cp\\(?:accept\\|c\\(?:\\(?:losesocke\\|onnec\\)t\\)\\|listen\\|nametoip\\|recv\\|s\\(?:end\\|\\(?:hutdown\\|tartup\\),\\)\\)\\|an\\|imer\\(?:diff\\|init\\)\\|ooltip\\|ray\\(?:create\\(?:item\\|menu\\)\\|getmsg\\|item\\(?:delete\\|get\\(?:handle\\|state\\|text\\)\\|set\\(?:onevent\\|state\\|text\\)\\)\\|set\\(?:click\\|icon\\|onevent\\|pauseicon\\|state\\|tooltip\\)\\|tip\\)\\)\\|u\\(?:bound\\|dp\\(?:bind\\|closesocket\\|open\\|recv\\|send\\)\\)\\|win\\(?:activ\\(?:\\(?:at\\)?e\\)\\|close\\|exists\\|flash\\|get\\(?:c\\(?:aretpos\\|l\\(?:asslist\\|ientsize\\)\\)\\|handle\\|p\\(?:\\(?:o\\|roces\\)s\\)\\|state\\|t\\(?:ext\\|itle\\)\\)\\|kill\\|list\\|m\\(?:enuselectitem\\|inimizeall\\(?:undo\\)?\\|ove\\)\\|set\\(?:ontop\\|state\\|t\\(?:itle\\|rans\\)\\)\\|wait\\(?:\\(?:activ\\|clos\\|notactiv\\)e\\)?\\)\\)\\>"
@@ -43,7 +43,7 @@
   "Highlighting expressions for au3 keywords")
 
 
-;; 추가
+;; 소문자 추가
 (defvar au3-font-lock-keywords-keywords2
   (list
    '("\\<\\(#\\(?:notrayicon\\|requireadmin\\|c\\(?:omments-start\\|[es]\\)\\|include\\(?:-once\\)?\\)\\|c\\(?:ase\\(?:\\)?\\|on\\(?:st\\|tinue\\(?:case\\|loop\\)\\)\\)\\|d\\(?:efault\\|im\\|o\\)\\|e\\(?:lse\\(?:if\\)?\\|n\\(?:d\\(?:func\\|if\\|s\\(?:elect\\|witch\\)\\|with\\)\\|um\\)\\|xit\\(?:loop\\)?\\)\\|f\\(?:or\\(?:\\)?\\|unc\\)\\|global\\|i[fn]\\|local\\|n\\(?:\\(?:ex\\(?:\\)?\\|o\\)t\\)\\|onautoit\\(?:\\(?:exi\\|star\\)t\\)\\|re\\(?:dim\\|turn\\)\\|s\\(?:elect\\|witch\\)\\|then\\|until\\|w\\(?:end\\|hile\\|ith\\)\\)\\>"
@@ -131,11 +131,24 @@
     au3-mode-syntax-table)
   "Syntax table for au3-mode")
 
+;(defun au3-mode ()
+;  "Major mode for editing AutoIt version 3 Language files"
+;  (interactive)
+;  (kill-all-local-variables)
+;  (set-syntax-table au3-mode-syntax-table)
+;  (use-local-map au3-mode-map)
+;  (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
+;  (set (make-local-variable 'indent-line-function) 'au3-indent-line)  
+;  (set (make-local-variable 'font-lock-keywords-case-fold-search) t)
+;  (set (make-local-variable 'default-tab-width) 4)
+;  (set (make-local-variable 'case-fold-search) t)
+;  (setq major-mode 'au3-mode)
+;  (setq mode-name "au3")
+;  (run-hooks 'au3-mode-hook))
+
 (defun au3-mode ()
   "Major mode for editing AutoIt version 3 Language files"
   (interactive)
-  (kill-all-local-variables)
-  (set-syntax-table au3-mode-syntax-table)
   (use-local-map au3-mode-map)
   (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
   (set (make-local-variable 'indent-line-function) 'au3-indent-line)  
