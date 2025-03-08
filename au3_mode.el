@@ -149,6 +149,7 @@
 (defun au3-mode ()
   "Major mode for editing AutoIt version 3 Language files"
   (interactive)
+  (set-syntax-table au3-mode-syntax-table)
   (use-local-map au3-mode-map)
   (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
   (set (make-local-variable 'indent-line-function) 'au3-indent-line)  
