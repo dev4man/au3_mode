@@ -160,11 +160,11 @@
   (setq mode-name "au3")
   (run-hooks 'au3-mode-hook))
 
-; (define-derived-mode au3-mode fundamental-mode "AU3"
-;   "Major mode for editing AutoIt version 3 Language files."
-;   (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
-;   (set (make-local-variable 'indent-line-function) 'au3-indent-line)
-;   (setq default-tab-width 4)
-;   )
+(define-derived-mode au3-mode fundamental-mode "AU3"
+  "Major mode for editing AutoIt version 3 Language files."
+  (set (make-local-variable 'font-lock-defaults) '(au3-font-lock-keywords))
+  (set (make-local-variable 'indent-line-function) 'au3-indent-line)
+  (setq default-tab-width 4)
+  )
 
 (provide 'au3-mode)
